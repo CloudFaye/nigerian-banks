@@ -1,0 +1,1 @@
+@keyframes svelte-1qaww7z-slideIn{0%{transform:translateY(-50%);opacity:0}to{transform:translateY(0);opacity:1}}@keyframes svelte-1qaww7z-slideOut{0%{transform:translateY(0);opacity:1}to{transform:translateY(-50%);opacity:0}}.toast-notification.svelte-1qaww7z{animation:svelte-1qaww7z-slideIn .3s ease-out forwards}

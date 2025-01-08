@@ -14,19 +14,30 @@
     font-display: swap;
 }
 
+@font-face {
+	/* Reference name */
+	font-family: 'Switzer-Regular';
+    
+	/* For multiple files use commas, ex: url(), url(), ... */
+	src: url('/fonts/Switzer-Regular.ttf');
+
+    font-display: swap;
+}
+
 
 
 
 /* NOTE: set your target theme name (ex: skeleton, wintry, modern, etc) */
 
-:root [data-theme='gold-nouveau'] {
+:root [data-theme='hamlindigo'] {
     --theme-font-family-base: 'Chevyray', sans-serif;
     --theme-font-family-heading: 'Chevyray', sans-serif;
     
-   
     
     /* ... */
 }
+
+body { font-family: 'Switzer-Regular', sans-serif;}
 
 
 

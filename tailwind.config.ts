@@ -22,7 +22,7 @@ const config = {
 	
     plugins: [
 	skeleton({
-		themes: { preset: [ { name: "vintage", enhancements: true } , { name: "gold-nouveau", enhancements: true } ] }
+		themes: { preset: [ { name: "vintage", enhancements: true } , { name: "gold-nouveau", enhancements: true }, { name: "hamlindigo", enhancements: true } ] }
 	})
 ]
 

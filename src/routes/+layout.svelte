@@ -15,7 +15,7 @@
 
 <svelte:head>{@html '<script>(' + autoModeWatcher.toString() + ')();</script>'}</svelte:head>
 <Toast />
-<main  class=" box-border w-full  p-20">
+<main  class=" box-border w-full p-20 items-center  flex flex-col  ">
 
   
   <slot />

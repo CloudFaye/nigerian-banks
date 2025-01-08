@@ -1,10 +1,10 @@
 <script lang="ts">
 
 const navItems = [
-    { name: 'Home' , href: '/', visible: true},
+    { name: 'Logos' , href: '/', visible: true},
     { name: 'Twitter' , href: '/', visible: true},
     { name: 'Github' , href: '/', visible: true},
-    { name: 'About' , href: '/', visible: true}
+    { name: 'About' , href: '/', visible: false}
 ]
 
 </script>
@@ -13,7 +13,7 @@ const navItems = [
     <ul>
         { #each navItems as item }
             {#if item.visible}
-                <li><a class='btn' href="{item.href}">{item.name}</a></li>
+                <li><a class='btn ' href="{item.href}">{item.name}</a></li>
             {/if}
         {/each}
     </ul>
@@ -41,7 +41,7 @@ const navItems = [
     }
 
     li {
-        margin: 0 10px;
+        margin: 0 0px;
     }
 
     a { text-decoration: none;

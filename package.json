@@ -15,6 +15,7 @@
     "@skeletonlabs/skeleton": "2.10.4",
     "@skeletonlabs/tw-plugin": "0.4.0",
     "@sveltejs/adapter-auto": "2.1.0",
+    "@sveltejs/adapter-vercel": "^5.5.2",
     "@sveltejs/kit": "1.22.1",
     "@types/node": "22.10.5",
     "@typescript-eslint/eslint-plugin": "5.62.0",
@@ -36,7 +37,6 @@
   },
   "type": "module",
   "dependencies": {
-    "svelte-confetti": "^2.2.0",
     "ts": "^0.2.2"
   }
 }

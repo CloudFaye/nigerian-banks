@@ -65,6 +65,7 @@
   </div>
 
   {#if loading}
+      <!-- svelte-ignore element_invalid_self_closing_tag -->
       <div class="w-[200px] mt-20 h-32 animate-pulse bg-surface-300 rounded-lg" />
   {:else}
       <div class="grid max-w-[1024px] grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 my-10">
@@ -109,13 +110,8 @@
 </section>
 
 <style>
-  .card {
-      transition: transform 0.3s ease-in-out, background-color 0.3s;
-  }
-
-  .card:hover {
-      transform: scale(1.0);
-  }
+ 
+  
 
   
 

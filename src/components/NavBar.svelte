@@ -11,7 +11,7 @@ const navItems = [
 
 <nav>
     <ul>
-        { #each navItems as item }
+        {#each navItems as item }
             {#if item.visible}
                 <li><a class='btn ' href="{item.href}">{item.name}</a></li>
             {/if}

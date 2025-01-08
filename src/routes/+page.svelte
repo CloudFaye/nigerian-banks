@@ -2,6 +2,7 @@
   import { onMount } from "svelte";
   import { banks, fetchBanks } from "../stores/bankStore";
   import type { Bank } from "../stores/bankStore";
+  import '../app.css';
   
 
   let bankData: Bank[] = [];

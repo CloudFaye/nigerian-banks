@@ -2,12 +2,13 @@
 
 const navItems = [
     { name: 'Logos' , href: '/', visible: true},
-    { name: 'Twitter' , href: '/', visible: true},
+    { name: 'Avatars' , href: '/avatars', visible: true},
     { name: 'Github' , href: '/', visible: true},
     { name: 'About' , href: '/', visible: false}
 ]
 
 </script>
+
 
 <nav>
     <ul>
@@ -23,7 +24,7 @@ const navItems = [
     nav {
         display: flex;
         position: fixed;
-        justify-content: end;
+       
         align-items: center;
         flex-wrap: wrap;
         width: 100%;

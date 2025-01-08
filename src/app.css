@@ -19,7 +19,7 @@
 	font-family: 'Switzer-Regular';
     
 	/* For multiple files use commas, ex: url(), url(), ... */
-	src: url('/fonts/Switzer-Regular.ttf');
+	src: url('/fonts/Switzer-Regular.otf');
 
     font-display: swap;
 }

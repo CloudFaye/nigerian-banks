@@ -1,1 +1,0 @@
-import{g as t,l as o,i as u,u as a,j as c}from"./utils.DQwrq2ka.js";function s(e){t===null&&o(),u&&t.l!==null?l(t).m.push(e):a(()=>{const n=c(e);if(typeof n=="function")return n})}function l(e){var n=e.l;return n.u??(n.u={a:[],b:[],m:[]})}export{s as o};
